@@ -17,11 +17,11 @@ import Sorter from 'components/sorter';
 const axios = fetcher.create({
     /* baseURL: 'https://scalr.api.appbase.io/test-v7-yo/_mapping/',
     headers: {'Authorization': 'Basic cWVJdTFETzAwOjNmZDQ0ZGNlLWUzMDUtNGQxMy04NGE0LTAyYzQyODA0MGY4Ng=='}, */
-    baseURL: 'https://scalr.api.appbase.io/good-books-ds',
+    /* baseURL: 'https://scalr.api.appbase.io/good-books-ds',
     headers: { 
         'Authorization': 'nY6NNTZZ6:27b76b9f-18ea-456c-bc5e-3a5263ebc63d',
-    },
-    /* baseURL: 'https://swapi.co/api/films', */
+    }, */
+    baseURL: 'https://swapi.co/api/films',
 });
 
 class Catalogue extends Component {
@@ -48,7 +48,7 @@ class Catalogue extends Component {
                 {/* <ReactiveBase
                     app="good-books-ds"
                     credentials="nY6NNTZZ6:27b76b9f-18ea-456c-bc5e-3a5263ebc63d"
-                >
+                > */}
                     <div className="navbar">
                         <div className="logo">
                             The Booksearch App
@@ -181,7 +181,7 @@ class Catalogue extends Component {
                             />
                         </div>
                     </div>
-                </ReactiveBase> */}
+                {/* </ReactiveBase> */}
                 dfdfdf
             </>
         );

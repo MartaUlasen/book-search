@@ -1,0 +1,58 @@
+﻿/* {
+  "extends": "airbnb",
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "config/webpack.config.js"
+      }
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "env": {
+    "amd": true,
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "worker": true
+  },
+  "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "linebreak-style": [ "error", "windows" ],
+    "indent": [
+      "error",
+      4,
+      { "SwitchCase": 1 }
+    ],
+    "brace-style": [ "error", "stroustrup" ],
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": [
+      "error",
+      { "allowForLoopAfterthoughts": true }
+    ],
+    "no-nested-ternary": "off",
+    "jsx-quotes": [ "error", "prefer-single" ],
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/jsx-indent": [ "error", 4 ],
+    "react/jsx-indent-props": [ "error", 4 ],
+    "react/state-in-constructor": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
+ */
